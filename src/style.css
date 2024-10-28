@@ -642,7 +642,7 @@
   border-radius: 10px;
   text-align: center;
   padding: 20px;
-  width: 250px;
+  max-width: 250px;
 }
 
 .id8-card-title {
@@ -826,7 +826,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
+  /* flex: 1; */
   max-width: 300px;
   padding: 30px;
   border-radius: 10px;
@@ -865,7 +865,6 @@
 
   .id11-card {
     max-width: 90%;
-    margin-bottom: 20px;
   }
 }
 
@@ -1075,4 +1074,99 @@
     width: 100%;
     margin-bottom: 20px;
   }
+}
+
+/* 15 features section */
+
+.id15-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.id15-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.id15-description {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.id15-process-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.id15-process-step {
+  width: 300px;
+  text-align: center;
+}
+
+.id15-icon-circle {
+  background-color: #FFA500;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+}
+
+.id15-step-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0073e6;
+}
+
+.id15-step-description {
+  font-size: 20px;
+  color: #666;
+}
+
+/* 16 features section */
+
+#section16 {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.container16 .title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container16 .description {
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.feature-item {
+  max-width: 200px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.feature-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  color: #666;
 }
