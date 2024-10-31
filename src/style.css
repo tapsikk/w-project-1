@@ -3481,7 +3481,73 @@
 
 /* 57 features section */
 
+.id57-section {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  padding: 60px 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.id57-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.id57-card {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  max-width: 300px;
+}
+
+.id57-icon {
+  font-size: 40px;
+  color: #ffcc33;
+  margin-bottom: 15px;
+}
+
+.id57-title {
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+.id57-description {
+  color: #b3b3b3;
+}
+
+.id57-big-text {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: right;
+  color: #ffffff;
+  max-width: 400px;
+}
+
+@media (max-width: 768px) {
+  .id57-section {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+  
+  .id57-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .id57-big-text {
+    text-align: center;
+    font-size: 28px;
+  }
+}
+
 /* 58 features section */
+
+
 
 /* 59 features section */
 
