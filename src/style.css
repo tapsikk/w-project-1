@@ -3533,12 +3533,12 @@
     padding: 20px 10px;
     flex-direction: column;
   }
-  
+
   .id57-container {
     flex-direction: column;
     gap: 30px;
   }
-  
+
   .id57-big-text {
     text-align: center;
     font-size: 28px;
@@ -3548,6 +3548,18 @@
 /* 58 features section */
 
 
+.id58-text {
+  padding: 0 45px;
+  border-left: 1px solid #b3b3b3;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .id58-text {
+    padding: 0 25px;
+    border-left: 1px solid #b3b3b3;
+  }
+}
 
 /* 59 features section */
 
