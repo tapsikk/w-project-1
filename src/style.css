@@ -3563,6 +3563,77 @@
 
 /* 59 features section */
 
+.id59-section {
+  padding: 30px 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.id59-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.id59-divider{
+  width: 100px;
+  height: 3px;
+  background-color: #c7fbfb;
+  border: none;
+}
+
+.id59-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.id59-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.id59-service-item {
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.id59-service-item i {
+  background-color: #c7fbfb;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 36px;
+}
+
+.id59-service-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.id59-service-description {
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .id59-service-item {
+    width: 100%;
+  }
+}
+
 /* 60 features section */
+
+
 
 /* 61 features section */
