@@ -2981,7 +2981,7 @@
 }
 
 @media (max-width: 768px) {
-  .id48-title{
+  .id48-title {
     font-size: 50px;
   }
 
@@ -3059,7 +3059,6 @@
     font-size: 14px;
   }
 }
-
 
 /* 50 features section */
 
@@ -3180,7 +3179,6 @@
   top: 0px;
 }
 
-
 .id51-card i {
   font-size: 40px;
   color: #0069d9;
@@ -3197,7 +3195,6 @@
   color: #666;
   line-height: 1.6;
 }
-
 
 /* 52 features section */
 
@@ -3264,7 +3261,6 @@
   line-height: 1.6;
 }
 
-
 /* 53 features section */
 .id53-intro-text {
   margin: 0 auto 30px;
@@ -3287,7 +3283,7 @@
   line-height: 1.6;
 }
 
-.id53-description{
+.id53-description {
   font-weight: 700;
 }
 
@@ -3335,18 +3331,17 @@
   }
 }
 
-
 /* 54 features section */
 
-.id54-section{
+.id54-section {
   margin: 30px 0;
   padding: 30px;
   background-color: #413d3d;
   color: #ffffff;
 }
 
-.id54-container{
-text-align: center;
+.id54-container {
+  text-align: center;
 }
 
 .id54-button {
@@ -3366,7 +3361,7 @@ text-align: center;
   text-align: center;
 }
 
-.id55-highlight{
+.id55-highlight {
   font-size: 20px;
   color: #ff6200;
 }
@@ -3386,14 +3381,13 @@ text-align: center;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
-  box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .id55-service-item i {
   font-size: 40px;
   color: #ff6200;
 }
-
 
 .id55-service-description {
   text-align: left;
@@ -3421,20 +3415,76 @@ text-align: center;
   }
 }
 
-
 /* 56 features section */
 
+.id56-section {
+  margin: 50px 0;
+}
+
+.id56-heading {
+  font-size: 30px;
+  color: #333;
+}
+
+.id56-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.id56-card {
+  padding: 20px;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.id56-card i {
+  background-color: #66cc33;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.id56-title {
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 15px;
+}
+
+.id56-description {
+  color: #666;
+  margin: 0 0 20px;
+}
+
+.id56-read-more {
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.id56-read-more:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .id56-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 /* 57 features section */
 
-
 /* 58 features section */
-
 
 /* 59 features section */
 
-
 /* 60 features section */
-
 
 /* 61 features section */
