@@ -3904,7 +3904,191 @@
 
 /* 64 features section */
 
+.id64-section {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.id64-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.id64-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.id64-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 270px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.id64-icon-wrapper {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.id64-circle-large {
+  width: 60px;
+  height: 60px;
+  background-color: #d9eaff;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  right: 110px;
+}
+
+.id64-circle-small {
+  width: 20px;
+  height: 20px;
+  background-color: #ffef9f;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+
+.id64-card i {
+  font-size: 36px;
+  color: #3264fe;
+  position: relative;
+  z-index: 1;
+}
+
+.id64-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0;
+}
+
+.id64-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .id64-section {
+    padding: 20px 0;
+  }
+
+  .id64-card {
+    padding: 15px 5px;
+  }
+}
+
+
 /* 65 features section */
+
+.id65-section {
+  padding: 40px 20px;
+  background-color: #f5f7fa;
+  text-align: center;
+}
+
+.id65-header {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  text-align: left;
+}
+
+.id65-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  display: inline-block;
+  position: relative;
+}
+
+.id65-title::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.id65-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.id65-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.id65-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.id65-icon-wrapper {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.id65-icon-wrapper i {
+  font-size: 36px;
+  color: #4a90e2;
+}
+
+.id65-step-number {
+  font-size: 48px;
+  color: #f0f0f5;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-weight: 700;
+}
+
+.id65-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+}
+
+.id65-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .id65-section{
+    padding: 20px 10px;
+  }
+ .id65-container{
+  flex-direction: column;
+ } 
+}
+
 
 /* 66 features section */
 
