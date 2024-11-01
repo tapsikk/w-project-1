@@ -3989,7 +3989,6 @@
   }
 }
 
-
 /* 65 features section */
 
 .id65-section {
@@ -4081,18 +4080,139 @@
 }
 
 @media screen and (max-width: 768px) {
-  .id65-section{
+  .id65-section {
     padding: 20px 10px;
   }
- .id65-container{
-  flex-direction: column;
- } 
+  .id65-container {
+    flex-direction: column;
+  }
 }
 
-
 /* 66 features section */
+.id66-section{
+  margin: 30px 0;
+}
+
+.id66-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.id66-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  flex: 1 1 300px;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  gap: 15px;
+  max-width: 500px;
+  height: auto;
+}
+
+.id66-icon-background {
+  background-color: #3498db;
+  padding: 15px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100px;
+  height: 100%;
+  padding: 1px;
+  margin: 0;
+}
+.id66-card i{
+  font-size: 40px;
+}
+
+.id66-title {
+  padding-top: 30px;
+  margin: 0 0 10px;
+  color: #333;
+}
+.id66-text {
+  font-size: 1em;
+  color: #666;
+  padding-bottom: 30px;
+  margin: 0;
+  max-width: 350px;
+}
+
+@media (max-width: 768px) {
+}
 
 /* 67 features section */
+
+.id67-section {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.id67-header {
+  margin-bottom: 40px;
+}
+
+.id67-main-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.id67-subtitle {
+  font-size: 1em;
+  color: #777;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.id67-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.id67-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1 1 250px;
+  max-width: 350px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.id67-number {
+  font-size: 2em;
+  color: #e67e22;
+  margin: 0;
+}
+
+.id67-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.id67-text {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .id67-container {
+      gap: 20px;
+  }
+}
+
 
 /* 68 features section */
 
