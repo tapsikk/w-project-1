@@ -3668,7 +3668,7 @@
   font-weight: bold;
 }
 
-.id60-sub-item{
+.id60-sub-item {
   max-width: 500px;
 }
 
@@ -3688,7 +3688,7 @@
   .id60-row {
     flex-direction: column;
   }
-  .id60-circle{
+  .id60-circle {
     width: 50px;
     height: 50px;
   }
@@ -3701,7 +3701,6 @@
 }
 
 /* 61 features section */
-
 
 .id61-section {
   margin: 30px 0;
@@ -3733,6 +3732,7 @@
 
 .id62-header {
   display: flex;
+  flex-wrap: nowrap;
   text-align: left;
   margin: 0 auto 40px;
   align-items: center;
@@ -3752,15 +3752,18 @@
   font-weight: 700;
   color: #333;
   margin: 10px 0;
+  max-width: 600px;
 }
 
 .id62-description {
+  max-width: 700px;
   color: #666;
   margin-bottom: 30px;
 }
 
 .id62-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
 }
@@ -3771,6 +3774,7 @@
   border-radius: 8px;
   padding: 20px;
   flex: 1;
+  min-width: 170px;
   position: relative;
 }
 
@@ -3818,9 +3822,102 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+  .id62-section {
+    padding: 20px 10px;
+  }
+  .id62-header {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
 
 /* 63 features section */
+
+.id63-section {
+  margin: 30px 0;
+  padding: 40px 20px;
+}
+
+.id63-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.id63-card {
+  display: flex;
+  gap: 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+.id63-card-darkblue {
+  background-color: #0056b3;
+}
+
+.id63-card-teal {
+  background-color: #17a2b8;
+}
+
+.id63-card i {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.id63-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+}
+
+.id63-underline {
+  width: 40px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 10px 0;
+}
+
+.id63-description {
+  font-size: 14px;
+  color: #e6e6e6;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .id63-section {
+    padding: 40px 10px;
+  }
+
+  .id63-card {
+    max-width: 100%;
+  }
+}
+
 /* 64 features section */
+
 /* 65 features section */
+
 /* 66 features section */
+
 /* 67 features section */
+
+/* 68 features section */
+
+/* 69 features section */
+
+/* 70 features section */
+
+/* 71 features section */
+
+/* 72 features section */
+
+/* 73 features section */
