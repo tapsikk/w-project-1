@@ -4494,3 +4494,189 @@
 
 
 /* 73 features section */
+
+.id73-section {
+  margin: 30px 0;
+  padding: 40px;
+}
+
+.id73-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  flex-direction: row;
+}
+
+.id73-text-block {
+  flex: 1;
+}
+
+.id73-main-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 0;
+}
+
+.id73-subheading {
+  font-size: 14px;
+  color: #16d3f4;
+}
+
+.id73-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.id73-image-block {
+  flex: 1;
+}
+
+.id73-image-block img {
+  width: 90%;
+  height: auto;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .id73-section{
+    padding: 20px 10px;
+  }
+  .id73-content-container{
+    flex-direction: column;
+  }
+  .id73-image-block img {
+    display: none;
+  }
+}
+
+
+/* 74 features section */
+
+.id74-section {
+  margin: 30px 0;
+  padding: 30px 10px;
+  background-color: #f9f7f5;
+  text-align: center;
+}
+
+.id74-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.id74-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.id74-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.id74-button {
+  background-color: #ffa500;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.id74-button:hover {
+  background-color: #ff8c00;
+}
+
+
+/* 75 features section */
+
+.id75-section {
+  margin: 30px 0;
+  padding: 30px 10px;
+  background-color: #f9f7f5;
+  text-align: center;
+}
+
+.id75-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.id75-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.id75-description {
+  font-size: 16px;
+  color: #afafaf;
+  margin-bottom: 30px;
+}
+
+.id75-button {
+  background-color: #ffa500;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.id75-button:hover {
+  background-color: #ff8c00;
+}
+
+
+/* 76 features section */
+
+.id76-section {
+  text-align: center;
+}
+
+.id76-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.id76-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.id76-column {
+  max-width: 250px;
+  text-align: left;
+}
+
+.id76-subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+.id76-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
