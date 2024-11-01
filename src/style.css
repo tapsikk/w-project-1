@@ -4089,7 +4089,7 @@
 }
 
 /* 66 features section */
-.id66-section{
+.id66-section {
   margin: 30px 0;
 }
 
@@ -4127,7 +4127,7 @@
   padding: 1px;
   margin: 0;
 }
-.id66-card i{
+.id66-card i {
   font-size: 40px;
 }
 
@@ -4209,14 +4209,144 @@
 
 @media (max-width: 768px) {
   .id67-container {
-      gap: 20px;
+    gap: 20px;
   }
 }
 
-
 /* 68 features section */
 
+.id68-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.id68-main-title {
+  font-size: 2em;
+  color: #333;
+  margin: 0;
+}
+
+.id68-subtitle {
+  font-size: 1em;
+  color: #888;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.id68-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.id68-card {
+  text-align: left;
+  max-width: 300px;
+}
+.id68-card:last-child {
+  text-align: right;
+}
+
+.id68-icon {
+  color: #6ba843;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.id68-title {
+  font-size: 1.2em;
+  color: #6ba843;
+  margin: 0 0 10px;
+}
+
+.id68-text {
+  font-size: 1em;
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .id68-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /* 69 features section */
+
+.id69-section {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.id69-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.id69-underline {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background-color: #ffcc33;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.id69-underline::after {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 4px;
+  background-color: #ff9900;
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+
+.id69-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.id69-card {
+  max-width: 300px;
+  text-align: left;
+}
+
+.id69-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffcc33;
+  margin: 0;
+}
+
+.id69-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.id69-description {
+  color: #666;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .id69-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 /* 70 features section */
 
