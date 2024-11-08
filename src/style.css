@@ -5282,7 +5282,11 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  background: linear-gradient(147deg, rgba(255, 255, 255, 0.40) 19.65%, rgba(255, 255, 255, 0.00) 80.35%);
+  background: linear-gradient(
+    147deg,
+    rgba(255, 255, 255, 0.4) 19.65%,
+    rgba(255, 255, 255, 0) 80.35%
+  );
   border-radius: 15px;
   padding: 20px;
   max-width: 200px;
@@ -5292,7 +5296,7 @@
 
 .engagement-card.active {
   backdrop-filter: blur(32px);
-  background: linear-gradient(180deg, #7E5EFF 0%, #ffffff 100%, #ff0000 80.35%);
+  background: linear-gradient(180deg, #7e5eff 0%, #ffffff 100%, #ff0000 80.35%);
   color: #fff;
 }
 
@@ -5316,8 +5320,8 @@
 
 .card-icon {
   font-size: 2em;
-  color: #BFACF9;
-  border: 1px solid #BFACF9;
+  color: #bfacf9;
+  border: 1px solid #bfacf9;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -5337,12 +5341,10 @@
   }
 }
 
+/* a7 */
 
-
-
-/* Banking Section */
 .a7-banking-section {
-  background-color: #EAEFF3;
+  background-color: #eaeff3;
   padding: 40px 10px;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -5355,7 +5357,6 @@
   color: #333;
   max-width: 600px;
 }
-
 
 .a7-cards {
   display: flex;
@@ -5390,7 +5391,8 @@
   gap: 10px;
 }
 
-.a7-pagination-prev, .a7-pagination-next {
+.a7-pagination-prev,
+.a7-pagination-next {
   background-color: #ffffff;
   border: none;
   width: 40px;
@@ -5404,7 +5406,114 @@
   cursor: pointer;
 }
 
-.a7-pagination-prev:hover, .a7-pagination-next:hover {
-  background-color: #B494DD;
+.a7-pagination-prev:hover,
+.a7-pagination-next:hover {
+  background-color: #b494dd;
   border: 1px solid #654391;
+}
+
+/* a8 */
+.a8-mountain-section {
+  padding: 30px;
+  color: #333;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #7a938e;
+}
+
+.a8-container {
+  background-image: url("/src/images/Frame8.jpg");
+  background-position: center;
+  border-radius: 15px;
+  border: 0.5px solid #ccc;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.a8-content {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 50px;
+}
+
+.a8-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.a8-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  flex: 1;
+}
+
+.a8-collection-info {
+  font-size: 0.9em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.a8-description {
+  font-size: 1em;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+.a8-content i {
+  background-color: #000;
+  color: #ffffff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+@media (max-width: 830px) {
+  .a8-card {
+    display: flex;
+    gap: 10px;
+  }
+
+  .a8-title {
+    font-size: 1.5em;
+  }
+
+  .a8-description {
+    font-size: 1em;
+    max-width: 300px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 505px) {
+  .a8-mountain-section {
+    padding: 20px 10px;
+  }
+  .a8-container {
+    background-size: cover;
+  }
+
+  .a8-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
