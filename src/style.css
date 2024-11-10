@@ -5519,7 +5519,7 @@
 }
 
 /* a9 */
-.a9-section{
+.a9-section {
 }
 
 .a9-skincare-section {
@@ -5598,7 +5598,6 @@
   }
 }
 
-
 @media screen and (max-width: 930px) {
   .a9-skincare-section {
     height: 400px;
@@ -5619,7 +5618,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .a9-section{
+  .a9-section {
     display: flex;
     justify-content: center;
   }
@@ -5646,8 +5645,6 @@
     font-size: 0.5em;
   }
 }
-
-
 
 /* a10 */
 
@@ -5747,7 +5744,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .a10-section{
+  .a10-section {
     display: flex;
     justify-content: center;
   }
@@ -5773,4 +5770,91 @@
   .a10-description {
     font-size: 0.5em;
   }
+}
+
+/* a11 */
+
+.a11-section {
+  background-color: #0f0848;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.a11-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.a11-description {
+  font-size: 1em;
+  color: #c3c3c3;
+  margin-bottom: 30px;
+}
+
+.a11-stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.a11-stat-block {
+  background: linear-gradient(
+    115deg,
+    rgba(33, 134, 183, 0.24) 3.77%,
+    rgba(196, 196, 196, 0.24) 114.67%
+  );
+  width: 297px;
+  height: 163px;
+  border-radius: 14px;
+}
+
+.a11-stat-number {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.a11-stat-text {
+  font-size: 0.9em;
+  color: #c3c3c3;
+}
+
+.a11-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.a11-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.governance-btn {
+  background-color: #ffffff;
+  color: #0f0848;
+  box-shadow: 0px 2px 16px 0px rgba(255, 255, 255, 0.3),
+    0px 4px 24px 0px rgba(255, 255, 255, 0.1),
+    0px 4px 56px 0px rgba(62, 204, 170, 0.1);
+}
+
+.forum-btn {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 2px 16px 0px rgba(255, 255, 255, 0.3),
+    0px 4px 24px 0px rgba(255, 255, 255, 0.1),
+    0px 4px 56px 0px rgba(62, 204, 170, 0.1);
+}
+
+.governance-btn:hover,
+.forum-btn:hover {
+  background-color: #c3c3c3;
+  color: #0f0848;
 }
