@@ -5836,6 +5836,7 @@
 .a11-buttons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
@@ -5875,16 +5876,19 @@
 
 .a12-partner-section {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: #100946;
   padding: 40px 20px 100px;
   color: #ffffff;
-  margin: 30px;
+  margin: 30px 0;
+  gap: 15px;
 }
 
 .a12-partner-content {
   max-width: 300px;
+  min-width: 200px;
 }
 
 .a12-title {
@@ -5915,15 +5919,17 @@
   );
   border-radius: 12px;
   padding: 20px;
-  width: 250px;
+  max-width: 250px;
   text-align: left;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 16px 0px rgba(255, 255, 255, 0.14),
+    0px 4px 24px 0px rgba(255, 255, 255, 0.05),
+    0px 4px 56px 0px rgba(62, 204, 170, 0.1);
 }
 
 .a12-card-title {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin: 0;
 }
 
 .a12-card-description {
@@ -5937,29 +5943,27 @@
   background-color: #ffffff;
   color: #0a0d24;
   border: none;
-  padding: 10px 20px;
+  width: 100%;
   border-radius: 20px;
   cursor: pointer;
   font-weight: bold;
+  padding: 5px 19px;
 }
 
 .a12-card-button:hover {
   background-color: #e0e7ff;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .a12-partner-section {
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
     gap: 20px;
   }
 
   .a12-cards-container {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .a12-card {
-    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }
