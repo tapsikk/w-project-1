@@ -5647,3 +5647,130 @@
   }
 }
 
+
+
+/* a10 */
+
+.a10-skincare-section {
+  background-image: url("/src/images/ExcludeA10.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  height: 926px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
+  position: relative;
+  font-family: Impact;
+  letter-spacing: 8.8px;
+}
+
+.a10-content {
+  position: absolute;
+  bottom: 40px;
+  left: 0px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.a10-title {
+  font-size: 78px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.a10-description {
+  font-family: Helvetica;
+  font-size: 16px;
+  max-width: 270px;
+  letter-spacing: 0.5px;
+}
+
+.a10-buy-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.a10-button-icon {
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 1360px) {
+  .a10-skincare-section {
+    height: 500px;
+  }
+
+  .a10-content {
+    bottom: 10px;
+    padding: 10px;
+  }
+
+  .a10-title {
+    font-size: 1.5em;
+  }
+
+  .a10-description {
+    font-size: 0.8em;
+  }
+
+  .a10-buy-button {
+    font-size: 0.8em;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .a10-skincare-section {
+    height: 400px;
+  }
+
+  .a10-content {
+    bottom: 10px;
+    padding: 10px;
+  }
+
+  .a10-title {
+    font-size: 1.4em;
+  }
+
+  .a10-description {
+    font-size: 0.5em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .a10-section{
+    display: flex;
+    justify-content: center;
+  }
+  .a10-skincare-section {
+    height: 400px;
+    max-width: 250px;
+    background-position: right;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .a10-content {
+    position: relative;
+  }
+
+  .a10-title {
+    font-size: 1.4em;
+  }
+
+  .a10-description {
+    font-size: 0.5em;
+  }
+}
