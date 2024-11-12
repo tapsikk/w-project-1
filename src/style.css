@@ -6454,7 +6454,7 @@
 }
 
 .a23-button {
-  background-color: #98D68C;
+  background-color: #98d68c;
   color: #ffffff;
   padding: 12px 56px;
   font-size: 1rem;
@@ -6465,4 +6465,105 @@
 
 .a23-button:hover {
   background-color: #9fd489;
+}
+
+/* a23 Section Styles */
+
+.a24-section {
+  text-align: center;
+  padding: 60px 0px;
+  background-color: #fff;
+  color: #000;
+}
+
+.a24-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.a24-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.a24-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a2e;
+  color: #fff;
+  border-radius: 20px;
+  padding: 30px 20px 0px 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.a24-card img {
+  max-width: 100px;
+}
+
+.a24-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.a24-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.a24-card ul li {
+  font-size: 0.9rem;
+  color: #b0b3c0;
+  margin: 8px 0;
+  position: relative;
+  padding-left: 20px;
+}
+
+.a24-card ul li::before {
+  content: "•";
+  color: #4a90e2;
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+.a24-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.a24-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .a24-card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .a24-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .a24-card {
+    width: 80%;
+    max-width: 350px;
+  }
 }
