@@ -5997,7 +5997,7 @@
   padding: 100px 50px 200px;
   background-color: #1c1c1c;
   position: relative;
-} 
+}
 
 .a19-content {
   max-width: 700px;
@@ -6080,8 +6080,113 @@
     flex-direction: column;
     justify-content: center;
   }
-   .a19-image-container {
+  .a19-image-container {
     display: none;
-   }
-  
+  }
+}
+
+/* а20  */
+
+.a20-section {
+  position: relative;
+  background-image: url("/src/images/A20.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  padding: 80px 10px;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.a20-title-container {
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+
+.a20-title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.a20-subtitle {
+  color: #cfcfcf;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(135, 135, 135, 0.8);
+  background: linear-gradient(
+    91deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(153, 153, 153, 0) 100%
+  );
+  backdrop-filter: blur(2px);
+}
+
+.a20-button {
+  background-color: #333;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.a20-stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.a20-stat-box {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 80px;
+  font-size: 1.5em;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(
+    105deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  backdrop-filter: blur(4px);
+}
+
+.a20-stat-box .value {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0;
+}
+
+.a20-stat-box .label {
+  font-size: 0.8em;
+  color: #cfcfcf;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .a20-subtitle {
+    font-size: 0.5em;
+  }
+  .a20-title {
+    font-size: 1.5em;
+  }
+  .a20-stat-box {
+    padding: 40px 60px;
+  }
+  .a20-stat-box .value {
+    font-size: 1em;
+  }
+  .a20-stat-box .label {
+    font-size: 0.5em;
+}
 }
