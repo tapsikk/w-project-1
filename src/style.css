@@ -6720,9 +6720,8 @@
 
 /* a26 Section Styles */
 
-
 .a26-section {
-  background: linear-gradient(270deg, #010806 0%, #051A15 100%);
+  background: linear-gradient(270deg, #010806 0%, #051a15 100%);
   padding: 80px 20px;
   color: #d1d5db;
   display: flex;
@@ -6787,17 +6786,17 @@
 
 @media (max-width: 768px) {
   .a26-container {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .a26-content {
-      max-width: 100%;
+    max-width: 100%;
   }
 
   .a26-image img {
-      width: 200px;
+    width: 200px;
   }
   .a26-button {
     display: block;
@@ -6805,3 +6804,130 @@
     text-align: center;
   }
 }
+
+/* a27 Section Styles */
+
+.a27-section {
+  background-color: #f3f7f4;
+  padding: 20px;
+}
+
+.a27-container {
+  margin: 0 auto;
+}
+
+.a27-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.a27-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.a27-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.a27-card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 600px;
+  width: 100%;
+}
+
+.a27-image {
+  padding: 16px;
+  display: block;
+}
+
+.a27-card-content {
+  padding: 20px;
+}
+
+.a27-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.a27-card-text {
+  font-size: 16px;
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .a27-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* a28 Section Styles */
+
+.a28-section {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  text-align: left;
+}
+
+.a28-title {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.a28-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.a28-card {
+  padding: 35px 30px;
+  border-radius: 12px;
+  border: 1px solid #F3EAE5;
+  background: linear-gradient(180deg, #FFF 0%, #FBF8F6 100%);
+  max-width: 220px;
+}
+
+.a28-card i {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.a28-card-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.a28-card-description {
+  font-size: 0.9em;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .a28-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* a29 Section Styles */
+
+/* a30 Section Styles */
+
+/* a31 Section Styles */
