@@ -7093,3 +7093,80 @@
 }
 
 /* a31 Section Styles */
+
+.a31-section {
+  background-color: #f3f3f3;
+  padding: 40px 10px;
+  text-align: center;
+}
+
+.a31-header {
+  margin-bottom: 24px;
+}
+
+.a31-label {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #fff;
+  color: #333;
+  font-size: 12px;
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+
+.a31-title {
+  color: #333;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.a31-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.a31-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 320px;
+  width: 100%;
+}
+
+.a31-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.a31-card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.a31-card-label {
+  display: inline-block;
+  padding: 2px 8px;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.a31-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 8px 0;
+}
+
+.a31-card-text {
+  font-size: 14px;
+  color: #666;
+}
