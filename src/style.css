@@ -6899,8 +6899,8 @@
 .a28-card {
   padding: 35px 30px;
   border-radius: 12px;
-  border: 1px solid #F3EAE5;
-  background: linear-gradient(180deg, #FFF 0%, #FBF8F6 100%);
+  border: 1px solid #f3eae5;
+  background: linear-gradient(180deg, #fff 0%, #fbf8f6 100%);
   max-width: 220px;
 }
 
@@ -6928,6 +6928,103 @@
 
 /* a29 Section Styles */
 
+.a29-section {
+  background-color: #fdefe4;
+  padding: 20px;
+}
+
+.a29-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.a29-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.a29-title {
+  margin-bottom: 16px;
+  color: #232323;
+  font-size: 64px;
+  font-style: normal;
+  line-height: 120%;
+}
+
+.a29-subtitle {
+  font-size: 16px;
+  color: #333;
+  max-width: 300px;
+}
+
+.a29-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.a29-card {
+  background-color: #586d5b;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+}
+
+.a29-label {
+  color: #f1a44f;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.a29-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.a29-card-text {
+  font-size: 16px;
+  color: #e5e5e5;
+}
+
+.a29-icon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #f1a44f;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  rotate: -50deg;
+}
+.a29-icon i{
+font-size: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  .a29-header {
+    flex-direction: column;
+  }
+  .a29-title {
+    font-size: 35px;
+}
+  .a29-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /* a30 Section Styles */
+
+
 
 /* a31 Section Styles */
