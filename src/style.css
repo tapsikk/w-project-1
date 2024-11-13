@@ -7292,7 +7292,7 @@
     font-size: 1.5em;
     margin: 0;
     color: #fff;
-}
+  }
   .a33-card {
     display: flex;
     flex-direction: column;
@@ -7307,7 +7307,124 @@
 
 /* a34 Section Styles */
 
+.a34-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.a34-title {
+  font-size: 64px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.a34-top-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.a34-top {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.a34-top img {
+  border-radius: 8px;
+}
+
+.a34-top-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+}
+
+.a34-top-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.a34-button {
+  border: none;
+  cursor: pointer;
+  max-width: 180px;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 32px;
+  background: #e7d3c2;
+}
+
+.a34-bottom-left,
+.a34-bottom-right {
+  flex: 1;
+  text-align: center;
+}
+
+.a34-bottom-left {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: rgba(241, 241, 240, 0.55);
+  border-radius: 22px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.a34-bottom-left img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.a34-bottom-left p {
+  font-size: 16px;
+  color: #555;
+  max-width: 300px;
+}
+
+@media screen and (max-width: 1250px) {
+  .a34-image-1 {
+    display: none;
+  }
+  .a34-top-container {
+    justify-content: center;
+  }
+
+  .a34-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .a34-bottom-right img {
+    margin-top: 15px;
+    width: 90%;
+  }
+
+  .a34-title {
+    font-size: 40px;
+  }
+
+  .a34-bottom-left p {
+    font-size: 12px;
+  }
+
+  .a34-bottom-left img {
+    width: 40%;
+  }
+}
 /* a35 Section Styles */
 
 /* a36 Section Styles */
