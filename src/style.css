@@ -8859,6 +8859,59 @@ color: #168394;
 
 /* a56 Section Styles */
 
+.a56-section {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f5;
+  padding: 10px;
+}
+
+.a56-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.a56-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.a56-text {
+  text-align: center;
+}
+
+.a56-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.a56-subtitle {
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #999;
+}
+
+.a56-description {
+  font-size: 1em;
+  color: #666;
+}
+
+.a56-button {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+}
+@media screen and (max-width: 768px) {
+  .a56-content {
+    flex-direction: column;
+  }
+}
+
 
 /* a57 Section Styles */
 
