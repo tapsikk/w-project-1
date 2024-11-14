@@ -8735,4 +8735,94 @@
 
 /* a54 Section Styles */
 
+.a54-section {
+  padding: 50px 10px;
+  background-color: #f7f8fa;
+  text-align: center;
+  color: #333;
+}
+
+.a54-header{
+  text-align: left;
+}
+
+.a54-header .a54-subtitle {
+  font-size: 16px;
+  color: #007b9e;
+  margin-bottom: 10px;
+}
+
+.a54-header .a54-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.a54-header .a54-description {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.a54-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.a54-card {
+  padding: 20px 0;
+  border-radius: 8px;
+  text-align: left;
+  font-family: Helvetica;
+  max-width: 250px;
+}
+
+.a54-card i{
+font-size: 40px;
+color: #168394;
+}
+
+.a54-icon {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.a54-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.a54-card-text {
+  font-size: 16px;
+  color: #666;
+}
+
+
 /* a55 Section Styles */
+
+
+/* a56 Section Styles */
+
+
+/* a57 Section Styles */
+
+
+/* a58 Section Styles */
+
+
+/* a59 Section Styles */
+
+
+/* a60 Section Styles */
+
+
+/* a61 Section Styles */
+/* a62 Section Styles */
+/* a63 Section Styles */
+/* a64 Section Styles */
+/* a65 Section Styles */
