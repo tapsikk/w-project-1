@@ -8262,6 +8262,98 @@
 
 /* a48 Section Styles */
 
+.a48-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  height: auto;
+  padding-bottom: 60px;
+  align-items: flex-start;
+}
+
+.a48-content {
+  max-width: 600px;
+  margin: 20px;
+}
+
+.a48-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.a48-text {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  max-width: 80%;
+}
+
+.a48-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e86f36;
+  color: #fff;
+  border: none;
+  padding: 15px 34px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.a48-button .a48-arrow {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.a48-image-container {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.a48-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.a48-indicators {
+  position: absolute;
+  bottom: -50px;
+  display: flex;
+  justify-content: center;
+  background: #1A1A1A;
+  padding: 12px 40px;
+  border-radius: 45px;
+  gap: 10px;
+}
+
+.a48-indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.a48-indicator.active {
+  background-color: #e86f36;
+}
+
+@media screen and (max-width: 1100px) {
+  .a48-section {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 60px 10px;
+  }
+  .a48-title {
+    font-size: 38px;
+  }
+}
 
 
 /* a49 Section Styles */
