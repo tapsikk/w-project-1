@@ -8994,10 +8994,92 @@ color: #168394;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+ }
 }
+
 /* a58 Section Styles */
 
+.a58-section {
+  padding: 50px 10px;
+  background-color: #fff;
+  text-align: center;
+  color: #333;
+}
+
+.a58-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.a58-header{
+  text-align: left;
+  max-width: 400px;
+}
+
+.a58-header .a58-subtitle {
+  font-size: 16px;
+  color: #F53757;
+  margin-bottom: 10px;
+}
+
+.a58-header .a58-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.a58-header .a58-description {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.a58-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.a58-card {
+  background: #F7F4F4;
+  padding: 20px 10px;
+  border-radius: 8px;
+  text-align: left;
+  font-family: Helvetica;
+  max-width: 250px;
+}
+
+.a58-card i{
+font-size: 50px;
+color: #F53757;
+}
+
+.a58-icon {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.a58-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.a58-card-text {
+  font-size: 16px;
+  color: #666;
+}
+
+@media screen and (max-width: 768px) {
+  .a58-container {
+    display: flex;
+   flex-direction: column;
+}
+}
 
 /* a59 Section Styles */
 
