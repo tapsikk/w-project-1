@@ -9083,12 +9083,112 @@ color: #F53757;
 
 /* a59 Section Styles */
 
+.a59-section {
+  background-color: #0c2a5c;
+  color: #ffffff;
+  padding: 40px 10px;
+}
+
+.a59-header {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.a59-subtitle {
+  color: #d35400;
+  font-size: 14px;
+}
+
+.a59-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.a59-description {
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.a59-content {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.a59-item {
+  display: flex;
+  gap: 10px;
+  background-color: #1b3b6f;
+  border-radius: 8px;
+  width: 100%;
+  text-align: left;
+  max-width: 400px;
+}
+
+.a59-image {
+
+}
+
+.a59-text-content{
+  margin-top: 20px;
+}
+
+.a59-item-number {
+  color: #d35400;
+  font-size: 24px;
+}
+
+.a59-item-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.a59-item-text {
+  font-size: 16px;
+  color: #c1c1c1;
+}
+
+@media screen and (max-width: 768px) { 
+  .a59-item {
+    padding: 10px;
+  }
+  .a59-image {
+   display: none;
+  }
+  
+}
+
 
 /* a60 Section Styles */
 
 
 /* a61 Section Styles */
+
+
 /* a62 Section Styles */
+
+
 /* a63 Section Styles */
+
+
 /* a64 Section Styles */
+
+
 /* a65 Section Styles */
+
+
+/* a66 Section Styles */
+
+
+/* a67 Section Styles */
+
+
+/* a68 Section Styles */
+
+
+/* a69 Section Styles */
+
+
+/* a70 Section Styles */
