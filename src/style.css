@@ -9412,6 +9412,88 @@
 
 /* a64 Section Styles */
 
+.a64-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #333; /* Темный фон */
+  color: #F5F5F5;
+  font-family: Arial, sans-serif;
+}
+
+.a64-subtitle {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #9E9E9E;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.a64-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.a64-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.a64-card {
+  background-color: #FFFFFF;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.a64-text-card {
+  padding: 40px 20px;
+}
+
+.a64-card i {
+  font-size: 2rem;
+  color: #666;
+  margin-bottom: 10px;
+  background-color: #C9D1DA;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.a64-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.a64-card-text {
+  font-size: 0.9rem;
+  color: #777;
+  text-align: center;
+}
+
+.a64-image-card {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a64-image {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .a64-grid {
+    grid-template-columns: 1fr;
+  }
+  
+}
+
+
 /* a65 Section Styles */
 
 /* a66 Section Styles */
