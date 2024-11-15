@@ -9286,6 +9286,65 @@
 
 /* a62 Section Styles */
 
+.a62-section {
+  padding: 60px 20px;
+  background: #262A21;
+  color: #fff;
+  margin: 30px 0;
+}
+
+.a62-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.a62-left {
+  flex: 1;
+}
+
+.a62-right {
+  flex: 2;
+}
+
+.a62-subtitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.a62-title {
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 54px;
+  font-weight: bold;
+  color: #CCFD5B;
+  margin: 0;
+}
+
+.a62-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.a62-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #CCFD5B;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .a62-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+}
+
+
 /* a63 Section Styles */
 
 /* a64 Section Styles */
