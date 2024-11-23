@@ -10320,8 +10320,146 @@
 
 /* a76 Section Styles */
 
+.a76-section {
+  padding: 60px 0px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.a76-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.a76-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.a76-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.a76-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.a76-button:hover {
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .a76-title {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .a76-description {
+    font-size: 16px;
+    text-align: left;
+
+  }
+
+  .a76-button {
+    padding: 12px 25px;
+    font-size: 14px;
+    text-align: left;
+
+  }
+}
 
 /* a77 Section Styles */
+
+.a77-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.a77-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.a77-title {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.a77-title .highlight {
+  color: #d1e967; /* Светло-зеленый */
+}
+
+.a77-title .ecosystem {
+  color: #8ec5f8; /* Голубой */
+}
+
+.a77-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.a77-button:hover {
+  background-color: #333;
+}
+
+.a77-button-icon {
+  display: inline-block;
+  background-color: #d1e967; /* Светло-зеленый */
+  color: #000;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+
+.a77-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .a77-title {
+    font-size: 22px;
+  }
+
+  .a77-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .a77-description {
+    font-size: 14px;
+  }
+}
 
 
 /* a78 Section Styles */
