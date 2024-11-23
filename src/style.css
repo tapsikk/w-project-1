@@ -9832,7 +9832,6 @@
   color: #666666;
 }
 
-
 /* a70 Section Styles */
 
 .a70-section {
@@ -9848,7 +9847,7 @@
 
 .a70-header .a70-subtitle {
   font-size: 16px;
-  color: #FF2A93;
+  color: #ff2a93;
   margin-bottom: 10px;
 }
 
@@ -9858,7 +9857,6 @@
   color: #523069;
   margin: 0;
 }
-
 
 .a70-cards {
   display: flex;
@@ -9879,7 +9877,7 @@
 .a70-card i {
   border: 1px solid #ccc;
   font-size: 65px;
-  color: #FF2A93;
+  color: #ff2a93;
   padding: 10px;
 }
 
@@ -9993,7 +9991,6 @@
   }
 }
 
-
 /* a72 Section Styles */
 
 .a72-section {
@@ -10025,14 +10022,14 @@
 }
 
 .a72-block {
-  border-left: 1px solid #F36827;
+  border-left: 1px solid #f36827;
   text-align: center;
   flex: 1;
   padding: 20px;
 }
 
 .a72-block:last-child {
-  border-right: 1px solid #F36827;
+  border-right: 1px solid #f36827;
 }
 
 .a72-block i {
@@ -10066,7 +10063,6 @@
   .a72-block {
     border: none;
   }
-  
 }
 
 /* a73 Section Styles */
@@ -10180,14 +10176,13 @@
   .a73-right {
     grid-template-columns: 1fr;
   }
-  
 }
 
 /* a74 Section Styles */
 
 .a74-section {
   padding: 60px 20px;
-  background-color: #6688DA;
+  background-color: #6688da;
   text-align: center;
   color: #ffffff;
 }
@@ -10224,13 +10219,13 @@
 
 .a74-card i {
   font-size: 48px;
-  color: #91A0E2;
+  color: #91a0e2;
   margin-bottom: 20px;
 }
 
 .a74-card-title {
   font-size: 20px;
-  color: #91A0E2;
+  color: #91a0e2;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -10248,7 +10243,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .a75-container {
@@ -10273,7 +10268,7 @@
   line-height: 1.2;
   margin-bottom: 20px;
   color: #333;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .a75-link {
@@ -10316,7 +10311,6 @@
     margin-top: 20px;
   }
 }
-
 
 /* a76 Section Styles */
 
@@ -10370,21 +10364,19 @@
   .a76-description {
     font-size: 16px;
     text-align: left;
-
   }
 
   .a76-button {
     padding: 12px 25px;
     font-size: 14px;
     text-align: left;
-
   }
 }
 
 /* a77 Section Styles */
 
 .a77-section {
-  padding: 50px 20px;
+  padding: 50px 0px;
   background-color: #fff;
   text-align: center;
 }
@@ -10395,7 +10387,7 @@
 }
 
 .a77-title {
-  font-size: 28px;
+  font-size: 45px;
   font-weight: bold;
   line-height: 1.4;
   color: #000;
@@ -10403,11 +10395,11 @@
 }
 
 .a77-title .highlight {
-  color: #d1e967; /* Светло-зеленый */
+  color: #d1e967;
 }
 
 .a77-title .ecosystem {
-  color: #8ec5f8; /* Голубой */
+  color: #8ec5f8;
 }
 
 .a77-button {
@@ -10431,7 +10423,7 @@
 
 .a77-button-icon {
   display: inline-block;
-  background-color: #d1e967; /* Светло-зеленый */
+  background-color: #d1e967;
   color: #000;
   font-size: 18px;
   margin-left: 10px;
@@ -10461,5 +10453,112 @@
   }
 }
 
-
 /* a78 Section Styles */
+
+.a78-section {
+  background-color: #fff;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.a78-container {
+  margin: 0 auto;
+}
+
+.a78-container h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.a78-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.a78-card {
+  display: flex;
+  justify-content: space-between;
+flex-direction: column;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  min-width: 250px;
+  max-width: 400px;
+  flex: 1;
+  position: relative;
+  text-align: left;
+}
+
+.a78-number {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  background-color: #4763fe;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 30px 30px;
+  border-radius: 30%;
+  box-shadow: 0 15px 6px rgba(0, 26, 255, 0.2);
+}
+
+.a78-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.a78-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.a78-link {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4763fe;
+  text-decoration: none;
+  position: relative;
+}
+
+.a78-link span {
+  font-size: 1rem;
+  margin-left: 5px;
+  transition: margin-left 0.3s;
+}
+
+.a78-link:hover span {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .a78-cards {
+    gap: 25px;
+  }
+  .a78-card {
+    min-width: 200px;
+    max-width: 300px;
+  }
+  .a78-number {
+    font-size: 25px;
+    padding: 20px 20px;
+  }
+  
+}
+
+/* a79 Section Styles */
+
+/* a80 Section Styles */
+
+/* a81 Section Styles */
+
+/* a82 Section Styles */
+
+/* a83 Section Styles */
