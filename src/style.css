@@ -10240,3 +10240,88 @@
   color: #6a6a6a;
 }
 
+/* a75 Section Styles */
+
+.a75-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.a75-container {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.a75-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  max-width: 500px;
+}
+
+.a75-title {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.a75-link {
+  font-size: 44px;
+  color: #333;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.a75-link:hover {
+  color: #555;
+}
+
+.a75-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+
+.a75-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .a75-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .a75-text {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .a75-image {
+    margin-top: 20px;
+  }
+}
+
+
+/* a76 Section Styles */
+
+
+/* a77 Section Styles */
+
+
+/* a78 Section Styles */
