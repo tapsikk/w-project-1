@@ -10621,8 +10621,88 @@
   .a79-header{
     flex-direction: column;
 }
+}
 
 /* a80 Section Styles */
+
+.a80-section {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.a80-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.a80-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffec00;
+  margin-bottom: 20px;
+}
+
+.a80-description {
+  font-size: 1.2rem;
+  color: #e5e5e5;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.a80-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.a80-btn {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.a80-btn-testnet {
+  background-color: #4c4c00;
+  color: #fff;
+}
+
+.a80-btn-testnet:hover {
+  background-color: #6a6a00;
+}
+
+.a80-btn-learn {
+  background-color: transparent;
+  color: #ffec00;
+  border: 2px solid #ffec00;
+}
+
+.a80-btn-learn:hover {
+  background-color: #ffec00;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .a80-title {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .a80-description {
+    font-size: 1rem;
+  }
+
+  .a80-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
 
 /* a81 Section Styles */
 
