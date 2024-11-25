@@ -11330,7 +11330,140 @@
 
 /* a91 Section Styles */
 
+.a91-section {
+  padding: 60px 0px;
+  background-color: #ffffff;
+}
+
+.a91-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.a91-image img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 8px;
+}
+
+.a91-content {
+  max-width: 550px;
+}
+
+.a91-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.a91-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444444;
+  margin-bottom: 30px;
+}
+
+.a91-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0056ff;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.a91-button:hover {
+  background-color: #003cb3;
+}
+
+.a91-button-icon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .a91-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 /* a92 Section Styles */
+
+.a92-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.a92-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.a92-content {
+  max-width: 550px;
+}
+
+.a92-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.a92-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444444;
+  margin-bottom: 30px;
+}
+
+.a92-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0056ff;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.a92-button:hover {
+  background-color: #003cb3;
+}
+
+.a92-button-icon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.a92-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .a92-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 /* a93 Section Styles */
 
