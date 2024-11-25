@@ -11273,6 +11273,59 @@
 
 /* a90 Section Styles */
 
+.a90-section {
+  text-align: center;
+  padding: 50px 0px;
+  background-color: #ffffff;
+}
+
+.a90-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.a90-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.a90-card {
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.a90-icon {
+  background-color: #0d2241;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.a90-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.a90-card-text {
+  font-size: 14px;
+  color: #666666;
+}
 
 
 /* a91 Section Styles */
