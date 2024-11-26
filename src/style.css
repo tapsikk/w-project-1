@@ -11563,6 +11563,106 @@
 
 /* a94 Section Styles */
 
+/* Стили для секции 94 */
+.a94-section {
+  padding: 40px 0px;
+  background-color: #ffffff;
+  margin: 30px 0;
+}
+
+.a94-content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.a94-image-container {
+  flex: 1;
+}
+
+.a94-main-image {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.a94-text-container {
+  flex: 1;
+}
+
+.a94-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d3557;
+  margin-bottom: 20px;
+}
+
+.a94-description {
+  font-size: 16px;
+  color: #6c757d;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.a94-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e63946;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.a94-button span {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.a94-button:hover {
+  background-color: #d62828;
+}
+
+.a94-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.a94-gallery-image {
+  flex: 1;
+  border-radius: 10px;
+  width: calc(33.333% - 13.333px);
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .a94-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+}
+
 /* a95 Section Styles */
 
 /* a96 Section Styles */
+/* a97 Section Styles */
+/* a98 Section Styles */
+/* a99 Section Styles */
+/* a100 Section Styles */
+/* a101 Section Styles */
+/* a102 Section Styles */
+/* a103 Section Styles */
+/* a104 Section Styles */
+/* a105 Section Styles */
+/* a106 Section Styles */
+/* a107 Section Styles */
+/* a108 Section Styles */
+/* a109 Section Styles */
+/* a110 Section Styles */
+/* a111 Section Styles */
+/* a112 Section Styles */
+
