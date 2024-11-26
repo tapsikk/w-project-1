@@ -12373,7 +12373,84 @@
 
 
 /* a104 Section Styles */
+
+.a104-section {
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+
+.a104-container {
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.a104-content {
+  flex: 1;
+}
+
+.a104-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.a104-content h1 .highlight {
+  color: #436F8A;
+}
+
+.a104-content p {
+  color: #8E8E8E;
+  font-family: "Microsoft Sans Serif", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.48;
+  margin-bottom: 20px;
+}
+
+.a104-content .a104-link {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #436F8A;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.a104-image {
+  flex: 1;
+  text-align: right;
+}
+
+.a104-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .a104-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .a104-image {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+
 /* a105 Section Styles */
+
+
 /* a106 Section Styles */
 /* a107 Section Styles */
 /* a108 Section Styles */
