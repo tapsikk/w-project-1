@@ -11724,6 +11724,78 @@
 
 /* a96 Section Styles */
 
+.a96-section {
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.a96-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.a96-left {
+  text-align: left;
+}
+
+.a96-left h2 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.a96-left p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.a96-button {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  text-align: center;
+}
+
+.a96-button:hover {
+  background-color: #333;
+}
+
+.a96-right {
+  display: grid;
+  gap: 20px;
+}
+
+.a96-img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .a96-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+}
+
 
 /* a97 Section Styles */
 /* a98 Section Styles */
