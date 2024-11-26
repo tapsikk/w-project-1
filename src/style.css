@@ -12547,9 +12547,87 @@
 }
 
 /* a106 Section Styles */
+ 
+.a106-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A55E1;
+  padding: 40px 20px;
+  color: #FFF;
+  gap: 30px;
+}
+
+.a106-text {
+  color: #FFF;
+font-family: Impact;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 148%;
+letter-spacing: 1.8px;
+  flex: 1;
+  max-width: 300px;
+}
+
+.a106-description {
+  font-family: Impact, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 148%;
+  letter-spacing: 1.8px;
+  margin-bottom: 15px;
+}
+
+.a106-title {
+  font-family: Impact, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 157%;
+  letter-spacing: 2.52px;
+  margin-bottom: 20px;
+}
+
+.a106-link {
+  font-family: Impact, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.8px;
+  text-decoration: none;
+  color: #FFF;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.a106-link:hover {
+  color: #FFD700;
+}
+
+.a106-arrow {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .a106-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
 /* a107 Section Styles */
 /* a108 Section Styles */
 /* a109 Section Styles */
 /* a110 Section Styles */
 /* a111 Section Styles */
 /* a112 Section Styles */
+/* a113 Section Styles */
+/* a114 Section Styles */
+/* a115 Section Styles */
+/* a116 Section Styles */
+/* a117 Section Styles */
+/* a118 Section Styles */
+/* a119 Section Styles */
+/* a120 Section Styles */
