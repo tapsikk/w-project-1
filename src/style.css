@@ -11883,10 +11883,6 @@
   transform: scale(1.1);
 }
 
-.iconoir-user {
-  font-size: 20px;
-}
-
 @media screen and (max-width: 870px) {
   .a97-card {
     flex-direction: column;
@@ -11937,7 +11933,7 @@
 }
 
 .a98-content p {
-  color: #7D7D7D;
+  color: #7d7d7d;
   font-family: "Lucida Console";
   font-size: 20px;
   font-style: normal;
@@ -11953,15 +11949,15 @@
   padding: 15px 25px;
   font-size: 18px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
   border-radius: 15px;
-  background: #1A1A19;
+  background: #1a1a19;
   cursor: pointer;
 }
 
 .a98-button:hover {
-  background: #3B3B3A;
+  background: #3b3b3a;
 }
 @media screen and (max-width: 1050px) {
   .a98-container {
@@ -11970,7 +11966,7 @@
   .a98-image img {
     width: 90%;
   }
-  .a98-image{
+  .a98-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11979,9 +11975,110 @@
 
 /* a99 Section Styles */
 
+.a99-section {
+  padding: 60px 0px;
+  background-color: #fff;
+}
 
+.a99-section h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.a99-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.a99-left {
+  flex: 1;
+}
+
+.a99-left h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+.a99-faq {
+  margin-bottom: 30px;
+}
+
+.a99-question {
+  margin-bottom: 20px;
+}
+
+.a99-question h3 {
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -2.56px;
+}
+
+.a99-question p {
+  color: #7d7d7d;
+  font-family: "Lucida Console";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134%;
+}
+
+.a99-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.a99-button:hover {
+  background-color: #333;
+}
+
+.a99-button .a99-arrow {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.a99-right {
+  flex: 1;
+}
+
+.a99-right img {
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+@media screen and (max-width: 1050px) {
+  .a99-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .a99-right img {
+    width: 90%;
+  }
+  .a99-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 /* a100 Section Styles */
+
+
 /* a101 Section Styles */
 /* a102 Section Styles */
 /* a103 Section Styles */
