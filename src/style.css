@@ -11467,6 +11467,100 @@
 
 /* a93 Section Styles */
 
+/* Стили для секции 93 */
+.a93-section {
+  padding: 60px 0px;
+  background-color: #ffffff;
+}
+
+.a93-container {
+  margin: 0 auto;
+}
+
+.a93-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.a93-subtitle {
+  display: block;
+  color: #e63946;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.a93-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1d3557;
+  margin-bottom: 20px;
+}
+
+.a93-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e63946;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.a93-button span {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.a93-button:hover {
+  background-color: #d62828;
+}
+
+.a93-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.a93-card {
+  flex: 1;
+  text-align: center;
+  min-width: 240px;
+}
+
+.a93-card-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.a93-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1d3557;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a93-card-title span {
+  margin-left: 5px;
+  font-size: 18px;
+  color: #e63946;
+}
+
+.a93-card-text {
+  font-size: 16px;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+
 /* a94 Section Styles */
 
 /* a95 Section Styles */
