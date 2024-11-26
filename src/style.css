@@ -12078,6 +12078,60 @@
 
 /* a100 Section Styles */
 
+.a100-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.a100-container{
+  text-align: center;
+}
+
+.a100-heading {
+  color: #111;
+  font-family: "Lucida Console", monospace;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -4.8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.a100-description {
+  color: #636363;
+  text-align: center;
+  font-family: "Lucida Console", monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 184%;
+  margin-bottom: 30px;
+}
+
+.a100-link {
+  color: #2E2E2E;
+  font-family: Verdana, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-decoration: none;
+  border-bottom: 2px solid #2E2E2E;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.a100-link:hover {
+  background-color: #2E2E2E;
+  color: #fff;
+}
+
 
 /* a101 Section Styles */
 /* a102 Section Styles */
