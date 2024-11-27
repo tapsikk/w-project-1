@@ -12940,6 +12940,65 @@ letter-spacing: 1.8px;
 
 
 /* a112 Section Styles */
+
+.a112-section {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.a112-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.a112-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.a112-content {
+  max-width: 600px;
+}
+
+.a112-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #2c2152;
+  margin-bottom: 20px;
+}
+
+.a112-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2c2152;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.a112-button:hover {
+  background-color: #5b6280;
+}
+
+.a112-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
 /* a113 Section Styles */
 /* a114 Section Styles */
 /* a115 Section Styles */
