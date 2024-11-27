@@ -12747,6 +12747,71 @@ letter-spacing: 1.8px;
 
 
 /* a109 Section Styles */
+
+.a109-section {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.a109-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.a109-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  text-align: center;
+  width: 250px;
+  padding-bottom: 0;
+}
+
+.a109-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+}
+
+.a109-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.a109-card p {
+  font-size: 14px;
+  color: #7d7d7d;
+  line-height: 1.5;
+  margin: 0 10px;
+}
+
+.a109-card::after {
+  content: "";
+  display: block;
+  height: 7px;
+  border-radius: 2px;
+  margin-top: 20px;
+  background: linear-gradient(148deg, #1EBDF5 13.03%, #3853D6 91.99%);
+}
+
+.a109-card:nth-child(2)::after {
+  background: linear-gradient(148deg, #CA7BF6 13.03%, #724BC0 91.99%);
+}
+
+
 /* a110 Section Styles */
 /* a111 Section Styles */
 /* a112 Section Styles */
