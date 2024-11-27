@@ -12891,6 +12891,54 @@ letter-spacing: 1.8px;
 }
 
 /* a111 Section Styles */
+
+.a111-section {
+  background: linear-gradient(254deg, #021128 5.9%, #244B83 100.83%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.a111-content {
+  max-width: 800px;
+}
+
+.a111-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.a111-content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.a111-button {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.a111-button:hover {
+  background: #ffffff;
+  color: #021128;
+}
+
+
 /* a112 Section Styles */
 /* a113 Section Styles */
 /* a114 Section Styles */
