@@ -13268,6 +13268,74 @@ font-weight: 400;
 
 
 /* a117 Section Styles */
+
+.a117-section {
+  background: #0E2334;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.a117-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.a117-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.a117-content {
+  background: #0E2334;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
+.a117-title {
+  color: #FFF;
+  font-family: Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 127%;
+  letter-spacing: -0.8px;
+  margin-bottom: 20px;
+}
+
+.a117-description {
+  color: #FFFFFF;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 148%;
+  margin-bottom: 30px;
+}
+
+.a117-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #CD3124;
+  color: #FFF;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.a117-button:hover {
+  background: #A8271D;
+}
+
+
 /* a118 Section Styles */
 /* a119 Section Styles */
 /* a120 Section Styles */
